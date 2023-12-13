@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"
+    ></script>
+    <title>Login Demo Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Login</h1>
+      <form class="ui form" action="./loginProcess.php" method="post">
+        <div class="field">
+          <label for="userID">User ID</label>
+          <input type="text" name="userID" placeholder="ID" id="userID" />
+        </div>
+        <div class="field">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            id="password"
+          />
+        </div>
+        <button class="ui button" type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
