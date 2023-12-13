@@ -33,5 +33,15 @@
   ![xss 공격 성공](https://github.com/studyjaehee/Test3/assets/91130771/978d06d5-3842-4b24-9c1a-556ac4799efd)
 
 
+- 디렉터리 리스팅
+- 의도치 않게 서버에 있는 자료가 노출될 수 있다.
+- 소스코드가 유출되어 공격자로부터 해킹을 당할 수 있다.
+   
+  ![디렉터리 리스팅1](https://github.com/studyjaehee/Test3/assets/91130771/5d543103-201e-41c6-b16f-7967579cc778)
+
+
+  ![디렉터리 리스팅2](https://github.com/studyjaehee/Test3/assets/91130771/bea97d7e-b250-4901-84f6-870f5de82699)
+
+
   
 
